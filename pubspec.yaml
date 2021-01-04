@@ -9,8 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+# The geolocator package used is outdated, only used this version
+# to conform with the project configurations and requirements.
   cupertino_icons: ^0.1.2
+  geolocator: ^3.0.1
+  http: ^0.12.2
+  flutter_spinkit: ^4.1.2
 
 dev_dependencies:
   flutter_test:
